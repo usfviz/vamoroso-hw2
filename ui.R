@@ -5,7 +5,7 @@ library(plotly)
 dataset <- full_c
 
 shinyUI(fluidPage(
-  titlePanel("World Development Indiators - Fertility vs. Life Expectancy"),
+  titlePanel("World Development Indicators - Fertility vs. Life Expectancy"),
   fluidRow(column(1, plotlyOutput('dynamicPlot', width = 950), width = 12)
   ),
   br(),
